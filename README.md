@@ -31,6 +31,9 @@ pip install -r requirements.txt
 ### 3️⃣ Train the Model (Optional)
 If you need to retrain the model, run:
 ```sh
+# to generate hand landmarks database (heavy task)
+python model_training/landmarks.py
+# train the model
 python model_training/train_model.py
 ```
 
